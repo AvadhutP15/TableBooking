@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/ivRestaurantimage"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+    <TextView
+        android:id="@+id/restaurantname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="8dp"
+        android:layout_toEndOf="@+id/ivRestaurantimage"
+        android:layout_toRightOf="@+id/ivRestaurantimage"
+        android:maxLines="1"
+        android:text="Android Name"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/cuisine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/restaurantname"
+        android:layout_alignStart="@+id/restaurantname"
+        android:layout_alignLeft="@+id/restaurantname"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="13dp"
+        android:maxLines="1"
+        android:text="Android Version"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/timing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/restaurantname"
+        android:layout_alignStart="@+id/restaurantname"
+        android:layout_alignLeft="@+id/restaurantname"
+        android:layout_marginStart="-1dp"
+        android:layout_marginLeft="-1dp"
+        android:layout_marginTop="45dp"
+        android:maxLines="1"
+        android:text="Android Version"
+        android:textSize="14sp" />
+    <Button
+        android:layout_width=""
+        android:layout_height=""
+
+</RelativeLayout>
